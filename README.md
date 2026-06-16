@@ -1,6 +1,6 @@
 # Slopsmith Plugin: Invert Highway
 
-A plugin for [Slopsmith](https://github.com/byrongamatos/slopsmith) that inverts the note highway, flipping the vertical stacking order of chord notes — just like the Invert Strings option in Rocksmith.
+A plugin for [Slopsmith](https://github.com/byrongamatos/slopsmith) that inverts the note highway, flipping the vertical stacking order of chord notes — just like the Invert Strings option in the chart.
 
 
 ## Features
