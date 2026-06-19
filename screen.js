@@ -35,7 +35,7 @@
             highway.setInverted(on);
             updateBtn(on);
         };
-        c.insertBefore(b, separator);
+        if (separator && separator.parentNode === c) c.insertBefore(b, separator); else c.appendChild(b);
     }
 
     // Inject button on each song play
