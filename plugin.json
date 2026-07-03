@@ -1,0 +1,14 @@
+{
+  "id": "invert_highway",
+  "name": "Invert Highway",
+  "version": "1.0.0",
+  "private": false,
+  "settings": {
+    "html": "settings.html",
+    "category": "graphics"
+  },
+  "script": "screen.js",
+  "category": "tools",
+  "description": "Flip the note highway direction.",
+  "icon": "assets/thumb.svg"
+}
