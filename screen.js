@@ -38,6 +38,12 @@
         if (separator && separator.parentNode === c) c.insertBefore(b, separator); else c.appendChild(b);
     }
 
+    // Node-only export hook for tests; browsers fall through to init below.
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = { updateBtn, injectBtn, OFF_CLASS, ON_CLASS };
+        return;
+    }
+
     // Inject button on each song play
     const _play = window.playSong;
     window.playSong = async function (f, a) {
