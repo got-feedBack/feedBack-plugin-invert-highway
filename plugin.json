@@ -9,6 +9,6 @@
   },
   "script": "screen.js",
   "category": "tools",
-  "description": "Flip the note highway direction.",
+  "description": "Invert the string order on the note highway.",
   "icon": "assets/thumb.svg"
 }
